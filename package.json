@@ -1,0 +1,23 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "graphql demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuedun/graphql-demo.git"
+  },
+  "author": "yuedun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuedun/graphql-demo/issues"
+  },
+  "homepage": "https://github.com/yuedun/graphql-demo#readme",
+  "dependencies": {
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
