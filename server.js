@@ -4,11 +4,17 @@ var { buildSchema } = require('graphql');
 
 var schema = buildSchema(`
   type Query {
-    hello: String
+    hello: String,
+    world: String,
+    yes: String
   }
 `);
 
-var root = { hello: () => 'Hello world!' };
+var root = {
+  hello: () => 'Hello world!',
+  world: () => 'hi world',
+  yes:()=> 'sdlkgjdo'
+};
 
 var app = express();
 app.use('/graphql', graphqlHTTP({
