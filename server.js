@@ -17,10 +17,10 @@ var root = {
 };
 
 var app = express();
-app.use('/graphql', graphqlHTTP({
+app.use('/', graphqlHTTP({
   schema: schema,
   rootValue: root,
   graphiql: true,
 }));
 
-app.listen(3000, () => console.log('Now browse to localhost:4000/graphql'));
+app.listen(3000, () => console.log('Now browse to localhost:3000/graphql'));
