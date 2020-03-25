@@ -17,8 +17,7 @@ var root = {
 	yes: () => 'yes!',
 	no: (name) => {
 		console.log(name);
-		
-		return 'no:' + name.name;
+		return name.name;
 	}
 };
 
